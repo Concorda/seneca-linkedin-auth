@@ -1,0 +1,33 @@
+{
+  "name": "seneca-linkedin-auth",
+  "version": "0.1.0",
+  "description": "linkedin auth plugin for seneca-auth",
+  "main": "linkedin-auth.js",
+  "scripts": {
+    "test": "mocha test --reporter spec"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://linkedin.com/nherment/seneca-linkedin-auth.git"
+  },
+  "keywords": [
+    "seneca",
+    "oauth",
+    "auth",
+    "linkedin",
+    "plugin"
+  ],
+  "author": "Nicolas Herment <nherment@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://linkedin.com/nherment/seneca-linkedin-auth/issues"
+  },
+  "homepage": "https://linkedin.com/nherment/seneca-linkedin-auth",
+  "dependencies": {
+    "passport-linkedin": "0.1.3"
+  },
+  "peerDependencies": {
+    "seneca-auth": "*",
+    "seneca": "*"
+  }
+}
