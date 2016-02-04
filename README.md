@@ -17,6 +17,7 @@ authentication plugin used by [Seneca](http://senecajs.org) toolkit.
 
 For a gentle introduction to Seneca itself, see the [senecajs.org](http://senecajs.org) site.
 
+If you're using this module, and need help, you can:
 - Post a [github issue][],
 - Tweet to [@senecajs][],
 - Ask on the [Gitter][gitter-url].
@@ -28,9 +29,6 @@ seneca-linkedin-auth's source can be read in an annotated fashion by,
 - viewing [online][].
 
 The annotated source can be found locally by clicking [here][].
-
-If you're using this module, and need help, you can:
-
 
 
 ## Install
