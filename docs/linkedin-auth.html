@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+  <title>linkedin-auth.js</title>
+  <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+  <meta name="viewport" content="width=device-width, target-densitydpi=160dpi, initial-scale=1.0; maximum-scale=1.0; user-scalable=0;">
+  <link rel="stylesheet" media="all" href="docco.css" />
+</head>
+<body>
+  <div id="container">
+    <div id="background"></div>
+    
+    <ul class="sections">
+        
+          <li id="title">
+              <div class="annotation">
+                  <h1>linkedin-auth.js</h1>
+              </div>
+          </li>
+        
+        
+        
+        <li id="section-1">
+            <div class="annotation">
+              
+              <div class="pilwrap ">
+                <a class="pilcrow" href="#section-1">&#182;</a>
+              </div>
+              
+            </div>
+            
+            <div class="content"><div class='highlight'><pre>
+<span class="hljs-keyword">var</span> LinkedinStrategy = <span class="hljs-built_in">require</span>(<span class="hljs-string">'passport-linkedin'</span>).Strategy
+
+<span class="hljs-built_in">module</span>.exports = <span class="hljs-function"><span class="hljs-keyword">function</span> (<span class="hljs-params">options</span>) </span>{
+  <span class="hljs-keyword">var</span> seneca = <span class="hljs-keyword">this</span>
+
+  <span class="hljs-keyword">var</span> authPlugin = <span class="hljs-keyword">new</span> LinkedinStrategy({
+    consumerKey: options.consumerKey,
+    consumerSecret: options.consumerSecret,
+    callbackURL: options.urlhost + <span class="hljs-string">'/auth/linkedin/callback'</span>,
+    profileFields: [<span class="hljs-string">'id'</span>, <span class="hljs-string">'first-name'</span>, <span class="hljs-string">'last-name'</span>, <span class="hljs-string">'email-address'</span>, <span class="hljs-string">'headline'</span>]
+  },
+    <span class="hljs-function"><span class="hljs-keyword">function</span> (<span class="hljs-params">token, tokenSecret, profile, done</span>) </span>{
+      <span class="hljs-keyword">var</span> data = {
+        nick: profile.displayName,
+        name: profile.displayName,
+        identifier: <span class="hljs-string">''</span> + profile.id,
+        credentials: {
+          token: token,
+          secret: tokenSecret},
+        userdata: profile,
+        when: <span class="hljs-keyword">new</span> <span class="hljs-built_in">Date</span>().toISOString()
+      }
+      done(<span class="hljs-literal">null</span>, data)
+    }
+  )
+
+  seneca.act({role: <span class="hljs-string">'auth'</span>, cmd: <span class="hljs-string">'register_service'</span>, service: <span class="hljs-string">'linkedin'</span>, plugin: authPlugin, conf: options})
+
+  <span class="hljs-keyword">return</span> {
+    name: <span class="hljs-string">'linkedin-auth'</span>
+  }
+}</pre></div></div>
+            
+        </li>
+        
+    </ul>
+  </div>
+</body>
+</html>
