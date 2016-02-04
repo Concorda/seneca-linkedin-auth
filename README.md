@@ -24,9 +24,16 @@ seneca-kinkedin-auth's source can be read in an annotated fashion by,
 
 The annotated source can be found locally by clicking [here][].
 
-## Install
+If you're using this module, and need help, you can:
 
+- Post a [github issue][],
+- Tweet to [@senecajs][],
+- Ask on the [Gitter][gitter-url].
+
+## Install
+To install, simply use npm. Remember you will need to install Seneca.js if you haven't already.
 ```sh
+npm install seneca
 npm install seneca-linkedin-auth
 ```
 ## Test
@@ -55,3 +62,6 @@ Copyright Mircea Alexandru and other contributors 2016, Licensed under [MIT][].
 [gitter-url]: https://gitter.im/senecajs/seneca
 [travis-badge]: https://travis-ci.org/mirceaalexandru/seneca-local-auth.svg
 [travis-url]: https://travis-ci.org/mirceaalexandru/seneca-local-auth
+[github issue]: https://github.com/senecajs/seneca-rabbitmq-transport/issues
+[@senecajs]: http://twitter.com/senecajs
+[gitter-url]: https://gitter.im/senecajs/seneca
