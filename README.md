@@ -15,5 +15,5 @@ The annotated source can be found locally by clicking [here][].
 Copyright Mircea Alexandru and other contributors 2015, Licensed under [MIT][].
 
 [MIT]: ./LICENSE
-[online]: http://htmlpreview.github.com/? https://github.com/matthewoconnor-development/seneca-linkedin-auth/blob/master/docs/linkedin-auth.html
+[online]: http://htmlpreview.github.com/?https://github.com/matthewoconnor-development/seneca-linkedin-auth/blob/master/docs/linkedin-auth.html
 [here]: ./docs/linkedin-auth.html
