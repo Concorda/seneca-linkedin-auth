@@ -9,7 +9,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git://linkedin.com/nherment/seneca-linkedin-auth.git"
+    "url": "git://linkedin.com/senecajs/seneca-linkedin-auth.git"
   },
   "keywords": [
     "seneca",
@@ -27,9 +27,9 @@
   ],
   "license": "MIT",
   "bugs": {
-    "url": "https://linkedin.com/nherment/seneca-linkedin-auth/issues"
+    "url": "https://github.com/senecajs/seneca-linkedin-auth/issues"
   },
-  "homepage": "https://linkedin.com/nherment/seneca-linkedin-auth",
+  "homepage": "https://github.com/senecajs/seneca-linkedin-auth",
   "dependencies": {
     "passport-linkedin": "1.0.0"
   },
