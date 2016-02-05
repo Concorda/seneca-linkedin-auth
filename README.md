@@ -50,7 +50,7 @@ The [Senecajs org](https://github.com/senecajs/) encourage open participation. I
 documentation, examples, extra testing, or new features please get in touch.
 
 ## License
-Copyright Mircea Alexandru and other contributors 2016, Licensed under [MIT][].
+Copyright Nicolas Herment and other contributors 2016, Licensed under [MIT][].
 
 [MIT]: ./LICENSE
 [online]: http://htmlpreview.github.com/?https://github.com/senecajs/seneca-linkedin-auth/blob/master/docs/linkedin-auth.html
