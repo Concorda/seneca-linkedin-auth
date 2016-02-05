@@ -2,15 +2,14 @@
 var LinkedinStrategy = require('passport-linkedin').Strategy
 
 module.exports = function (options) {
-
   var seneca = this
 
   var authPlugin = new LinkedinStrategy({
-      consumerKey:      options.consumerKey,
-      consumerSecret:   options.consumerSecret,
-      callbackURL:      options.urlhost + '/auth/linkedin/callback',
-      profileFields:    ['id', 'first-name', 'last-name', 'email-address', 'headline']
-    },
+    consumerKey: options.consumerKey,
+    consumerSecret: options.consumerSecret,
+    callbackURL: options.urlhost + '/auth/linkedin/callback',
+    profileFields: ['id', 'first-name', 'last-name', 'email-address', 'headline']
+  },
     function (token, tokenSecret, profile, done) {
       var data = {
         nick: profile.displayName,
@@ -21,8 +20,8 @@ module.exports = function (options) {
           secret: tokenSecret},
         userdata: profile,
         when: new Date().toISOString()
-      };
-      done(null, data);
+      }
+      done(null, data)
     }
   )
 
