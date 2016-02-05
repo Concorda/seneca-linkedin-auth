@@ -54,14 +54,14 @@ Copyright Nicolas Herment and other contributors 2016, Licensed under [MIT][].
 [MIT]: ./LICENSE
 [online]: http://htmlpreview.github.com/?https://github.com/senecajs/seneca-linkedin-auth/blob/master/docs/linkedin-auth.html
 [here]: ./docs/linkedin-auth.html
-[npm-badge]: https://badge.fury.io/js/seneca-local-auth.svg
-[npm-url]: https://badge.fury.io/js/seneca-local-auth
-[david-badge]: https://david-dm.org/mirceaalexandru/seneca-local-auth.svg
-[david-url]: https://david-dm.org/mirceaalexandru/seneca-local-auth
+[npm-badge]: https://badge.fury.io/js/seneca-linkedin-auth.svg
+[npm-url]: https://badge.fury.io/js/seneca-linkedin-auth
+[david-badge]: https://david-dm.org/senecajs/seneca-linkedin-auth.svg
+[david-url]: https://david-dm.org/senecajs/seneca-linkedin-auth
 [gitter-badge]: https://badges.gitter.im/senecajs/seneca.png
 [gitter-url]: https://gitter.im/senecajs/seneca
-[travis-badge]: https://travis-ci.org/mirceaalexandru/seneca-local-auth.svg
-[travis-url]: https://travis-ci.org/mirceaalexandru/seneca-local-auth
+[travis-badge]: https://travis-ci.org/senecajs/seneca-linkedin-auth.svg
+[travis-url]: https://travis-ci.org/senecajs/seneca-linkedin-auth
 [github issue]: https://github.com/senecajs/seneca-rabbitmq-transport/issues
 [@senecajs]: http://twitter.com/senecajs
 [gitter-url]: https://gitter.im/senecajs/seneca
