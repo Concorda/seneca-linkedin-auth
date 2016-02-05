@@ -62,6 +62,6 @@ Copyright Nicolas Herment and other contributors 2016, Licensed under [MIT][].
 [gitter-url]: https://gitter.im/senecajs/seneca
 [travis-badge]: https://travis-ci.org/senecajs/seneca-linkedin-auth.svg
 [travis-url]: https://travis-ci.org/senecajs/seneca-linkedin-auth
-[github issue]: https://github.com/senecajs/seneca-rabbitmq-transport/issues
+[github issue]: https://github.com/senecajs/seneca-linkedin-auth/issues
 [@senecajs]: http://twitter.com/senecajs
 [gitter-url]: https://gitter.im/senecajs/seneca
