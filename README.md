@@ -9,7 +9,6 @@
 [![Dependency Status][david-badge]][david-url]
 [![Gitter chat][gitter-badge]][gitter-url]
 
-Lead Maintainer: [Mircea Alexandru](https://github.com/mirceaalexandru)
 ## About
 This plugin is used by [seneca-auth](https://www.npmjs.com/package/seneca-auth) for authenticating via local strategy.
 It uses [PassportJS](http://passportjs.org). The [seneca-auth](https://www.npmjs.com/package/seneca-auth) is the
